@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>BVC Sport Club Registration</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <h1>BVC Sport Club Registration</h1>
 
   <form id="registrationForm">
-    <div>
-      <label for="userID">ID:</label>
-      <input type="text" id="userID" name="userID" required>
-    </div>
-    <div>
-      <label for="fullName">Full Name:</label>
-      <input type="text" id="fullName" name="fullName" required>
-    </div>
-    <div>
-      <label for="address">Address:</label>
-      <input type="text" id="address" name="address" required>
-    </div>
-    <div>
-      <label for="status">Status:</label>
-      <select id="status" name="status">
-        <option value="student">Student</option>
-        <option value="staff">Staff</option>
-        <option value="volunteer">Volunteer</option>
-      </select>
-    </div>
+    <fieldset>
+      <legend>Member Information</legend> 
+      <div>
+        <label for="memberID">Member ID:</label>
+        <input type="text" id="memberID" name="memberID" required>
+      </div>
+      <div>
+        <label for="memberFullName">Full Name:</label>
+        <input type="text" id="memberFullName" name="memberFullName" required>
+      </div>
+      <div>
+        <label for="memberAddress">Address:</label>
+        <input type="text" id="memberAddress" name="memberAddress" required>
+      </div>
+      <div>
+        <label for="memberStatus">Status:</label>
+        <select id="memberStatus" name="memberStatus">
+          <option value="student">Student</option>
+          <option value="staff">Staff</option>
+          <option value="volunteer">Volunteer</option>
+        </select>
+      </div>
+    </fieldset>
 
     <button type="submit">Register</button>
   </form>
@@ -43,11 +44,8 @@
     <p id="confirmFee"></p>
   </div>
 
-  <div>
-    <button id="buttonBack" type="button" style="display: none" onclick="backButton()">Back</button>
-  </div>
+  <button id="backButton" type="button" style="display: none;" onclick="backButton()">Back</button>
 
   <script src="script.js"></script>
 </body>
-
 </html>
