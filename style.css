@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 25px;
+}
+
+#registrationForm {
+    width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    padding-right: 0%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #0066cc; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #004d99;
+}
+
+#confirmation {
+    background-color: #e8f5e9;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #4caf50;
+    border-radius: 4px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#buttonBack {
+  background-color: #c1c1c1; 
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#buttonBack:hover {
+  background-color: #949494;
+}
+
